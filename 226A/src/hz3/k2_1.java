@@ -13,7 +13,7 @@ public class k2_1 {
 		// printTower();
 		printXO();
 	}
-
+ 
 	static void ggt(int a, int b) {
 		int ta = a;
 		int tb = b;
