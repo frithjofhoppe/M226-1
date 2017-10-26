@@ -7,7 +7,7 @@ public class k1_1 {
 		int valueOfapprentices = 18;
 		boolean isLightOn = true;
 		double saldoOfBankkonto = 4466.0;
-		char lineOnChessPattern = 'E';
+		char lineOnChessPattern =+ 'E';
 		
 		valueOfapprentices = 20;
 		isLightOn = false;
