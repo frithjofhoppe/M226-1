@@ -5,7 +5,7 @@ public class Kunde
 	private String vorname;
 	private String name;
 	private int kundennummer;
-	
+
 	Kunde(String vorname, String name, int kundennummer)
 	{
 		this.vorname = vorname;

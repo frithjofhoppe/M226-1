@@ -23,13 +23,17 @@ public class Konto
 
 	public void einzahlen(double wert)
 	{
-		saldo+=wert;
+		if(wert > 0 && wert <= 2000) {
+			saldo += wert;
+		}
 	}
 	
 	public void verzinsen(double tag)
 	{
-		double zins = saldo * zinssatz * (tag/365);
-		saldo += zins;
+		if(tag > 0) {
+			double zins = saldo * zinssatz * (tag / 365);
+			saldo += zins;
+		}
 	}
 	
 	public String toString()
