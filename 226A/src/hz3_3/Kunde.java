@@ -11,7 +11,7 @@ public class Kunde
 		this.vorname = vorname;
 		this.name = name;
 		this.kundennummer = kundennummer;
-	} 
+	}
 
 	public int getKundennummer() {
 		return kundennummer;

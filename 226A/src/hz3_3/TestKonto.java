@@ -11,7 +11,7 @@ public class TestKonto {
 		System.out.println(k2.toString());
 		k2.verzinsen(750);
 		System.out.println(k2.getSaldo());
-		k2.einzahlen(200);
+		k2.einzahlen(5000);
 		System.out.println(k2.getSaldo());
 		
 	}
